@@ -11,6 +11,7 @@ function draw () {
         context.strokeText(text, 30, 60);
 
         var length = context.measureText(text).width;
+        var can
         console.log(length);
         
         // fillText
